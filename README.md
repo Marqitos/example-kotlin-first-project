@@ -10,50 +10,64 @@ Practice Kotlin coding to build a program that can automate your account managem
 Once you choose a project, we'll provide you with a study plan that includes all the necessary topics from your course to get it built.
 Here’s what awaits you:
 
-### Stage (1/3): Print the prices
+## Stage (1/3): Print the prices
 
 - Introduction to Kotlin
 - Basic literals: numbers, strings and characters
 - Writing first program
 - Standard output
 
-#### Theory
+## Stage (2/3): Measuring total income
 
-Welcome to your first Kotlin project! On Hyperskill, a project is a practical task where you apply skills from theoretical topics.
-Each project is a complete application: a game, a search engine, etc.
-To help you grasp the idea, let's write a simple net income calculator in this one!
+- Values and variables
+- Constants and val variables
+- Data types
+- Arithmetic operations
+- Properties of basic types
 
-This is the first stage in the project, a step in its development.
-For example, you can't create a Tetris game in one take; instead, break down the task into smaller steps — designing a game board or a menu.
-The same applies to our projects; each consists of multiple stages.
+### Theory
 
-Below, you will find a description that provides context for what you should do.
-Objectives state the main task of the stage and the details.
+Each new stage of a project is a step up in difficulty. The main idea, however, remains the same. You need to take your code from the first stage and add new features. Find the description of these features below.
 
-Write your code in the Code Editor below and press Run Solution to check it.
-If your solution is correct, move to the second stage by pressing Continue.
+### Description
 
-#### Description
+A month has passed since the opening of your shop. Let's calculate the total earnings for this period! You know the total earned amount for each item:
 
-You've recently opened a new corner shop.
-It is relatively small; it contains only bubblegum, toffee, ice cream, milk chocolate, doughnuts, and pancakes.
-The first version of the program will display a list of all the products with their prices.
+| Item name | Earned amount |
+| --- | --- |
+| Bubblegum | $202 |
+| Toffee | $118 |
+| Ice cream | $2250 |
+| Milk chocolate| $1680 |
+| Doughnut | $1075 |
+| Pancake | $80 |
 
-#### Objectives
+Use this information to find the total income for the first month.
 
-- Print the Prices: line;
-- Print the item names and prices from the Example below. Your output format should follow it.
+### Objectives
 
-#### Example
+In this stage, your program should:
 
-**Example 1:** output at the end of this stage
+1. Print the `Earned amount:` line.
+2. Print the item names and the earned amount for each item.
+3. Print the total earnings as shown below. Replace `0.0` with the actual total sum:
 
 ```console
-Prices:
-Bubblegum: $2
-Toffee: $0.2
-Ice cream: $5
-Milk chocolate: $4
-Doughnut: $2.5
-Pancake: $3.2
+Income: $0.0
+```
+
+### Example
+
+**Example 1:** output at the end of this stage (*figures may vary*)
+
+```console
+Earned amount:
+Bubblegum: $202
+Toffee: $118
+Ice cream: $2250
+Milk chocolate: $1680
+Doughnut: $1075
+Pancake: $80
+
+Income: $7777
 ```
